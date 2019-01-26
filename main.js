@@ -18,6 +18,7 @@ function expTen(x) {
 
 console.log(expTen(5));
 
+//выводит в консоли Hello, World!
 function log(x) {
   return x;
 }
