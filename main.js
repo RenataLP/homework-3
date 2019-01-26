@@ -19,10 +19,15 @@ function expTen(x) {
 console.log(expTen(5));
 
 //выводит в консоли Hello, World!
-function log(x) {
-  return x;
+    
+function getFuncRes(func,x) {
+  var console = func (x);
+  return console;
+      
+  function func (x) {
+    console.log(x);
+  }
 }
-
-function getFunc(fuc, x) {}
-
-getFunc(console.log, "Hello, World!");
+    
+getFuncRes(console.log, "Hello, World!")
+    
