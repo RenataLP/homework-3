@@ -18,8 +18,7 @@ function expTen(x) {
 
 console.log(expTen(5));
 
-//выводит в консоли Hello, World!
-    
+//выводит в консоли Hello, World!    
 function getFuncRes(func,x) {
   var console = func (x);
   return console;
